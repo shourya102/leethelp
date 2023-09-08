@@ -1,0 +1,13 @@
+#icon{
+    width: 30px;
+    margin: 6px;
+    margin-top: 10px;
+}
+.nav{
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+}
+body{
+margin: 0%;
+}
