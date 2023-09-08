@@ -7,7 +7,7 @@
 .nav {
     background-color: rgb(245, 247, 249);
     height: 50px;
-    display: flex;
+    
     
     border-bottom: 1px solid rgb(198, 197, 197);
 }
@@ -26,6 +26,16 @@ margin: 0%;
     
 
 }
+.navcntl{
+    width: 5%;
+    margin: 0%;
+    float: left;
+}
+.navcntc{
+    width: 90.2%;
+    display: flex;
+    justify-content: center;
+}
 .hdpostion:hover{
     background-color: green;
 }
@@ -33,7 +43,8 @@ margin: 0%;
    
     
 }
-#ic{
+.bl5{
+    align-self: center;
 
 }
 /* .hd1{
