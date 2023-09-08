@@ -3,11 +3,39 @@
     margin: 6px;
     margin-top: 10px;
 }
-.nav{
-    background-color: aqua;
+
+.nav {
+    background-color: rgb(245, 247, 249);
     height: 50px;
     display: flex;
+    
+    border-bottom: 1px solid rgb(198, 197, 197);
 }
 body{
 margin: 0%;
 }
+
+ .hdpostion{
+    
+    padding: 12px;
+    text-decoration: none;
+    
+    font-size: 20px;
+    color: black;
+   
+    
+
+}
+.hdpostion:hover{
+    background-color: green;
+}
+.hdcnt{
+   
+    
+}
+#ic{
+
+}
+/* .hd1{
+    margin: 10px;
+} */
