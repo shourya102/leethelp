@@ -6,6 +6,7 @@ const app= express();
 
 app.set('views-engine', ejs);
 app.use('/public', express.static('public'));
+app.use('/res', express.static('res'));
 
 app.get('/', (req, res) => {
     res.render('index.ejs');
