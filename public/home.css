@@ -1,0 +1,52 @@
+.typed {
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    width: 0;
+    animation: typing;
+    animation-duration: 2s;
+    margin-top: 20px;
+    margin-left: 100px;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+} 
+
+.maincnt{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #6d6d73;
+  /* copied patterns */
+  opacity: 0.6;
+  background-image:  linear-gradient(30deg, #4d4d51 12%, transparent 12.5%, transparent 87%, #4d4d51 87.5%, #4d4d51), linear-gradient(150deg, #4d4d51 12%, transparent 12.5%, transparent 87%, #4d4d51 87.5%, #4d4d51), linear-gradient(30deg, #4d4d51 12%, transparent 12.5%, transparent 87%, #4d4d51 87.5%, #4d4d51), linear-gradient(150deg, #4d4d51 12%, transparent 12.5%, transparent 87%, #4d4d51 87.5%, #4d4d51), linear-gradient(60deg, #4d4d5177 25%, transparent 25.5%, transparent 75%, #4d4d5177 75%, #4d4d5177), linear-gradient(60deg, #4d4d5177 25%, transparent 25.5%, transparent 75%, #4d4d5177 75%, #4d4d5177);
+  background-size: 46px 81px;
+  background-position: 0 0, 0 0, 23px 40px, 23px 40px, 0 0, 23px 40px;
+}
+
+.middle {
+  flex-basis: 500px;
+  height: 350px;
+  backdrop-filter: blur(6px);
+  box-shadow: 5px 5px 20px 10px rgba(100, 100, 100, 0.1);
+  border: 1px solid rgba(35, 35, 35, 0.1);
+  border-radius: 16px;
+  background-color: rgba(200, 200, 200, 0.1);
+  margin: 150px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.middle .para {
+  text-align: center;
+  padding: 20px;
+}
+
+body{
+  margin: 0%;
+}
