@@ -7,7 +7,6 @@
 .nav {
     background:linear-gradient(180deg, rgb(35, 35, 35), rgb(80, 80, 80));
     height: 50px;
-    border-bottom: 1px solid rgb(198, 197, 197);
 }
 
 body{
@@ -22,6 +21,7 @@ font-family:'Courier New', Courier, monospace;
     color: white;
 
 }
+
 .navcntl{
     width: 5%;
     margin: 0%;
