@@ -1,11 +1,12 @@
 .foot {
     background: linear-gradient(180deg, rgb(35, 35, 35), rgb(80, 80, 80));
-    height: 30%;
     border: 1px solid rgba(35, 35, 35, 0.1);
-    border-radius: 0 0 16px 16px;
-    margin: 0;
     font-family: 'Courier New', Courier, monospace;
     box-shadow: 0 -12px 15px 5px rgba(35, 35, 35, 0.7);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 99.9vw;
 }
 
 .foottext {

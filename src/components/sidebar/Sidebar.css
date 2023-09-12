@@ -5,7 +5,7 @@
     float: left;
     box-shadow: 8px 0 20px 1px rgb(30, 30, 30);
     transition: 1s;
-    height: 50rem;
+    height: 95vh;
 }
 
 .sidebar.closed {
