@@ -1,14 +1,13 @@
 import './App.css';
-import'./components/sidebar/Sidebar'
-import Sidebar from "./components/sidebar/Sidebar";
-import Footer from "./components/footer/Footer";
+import './components/sidebar/Sidebar';
+import Home from "./components/home/Home";
+
 function App() {
-  return (
-    <div className="App">
-      <Sidebar></Sidebar>
-      <Footer></Footer>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Home/>
+        </div>
+    );
 }
 
 export default App;
