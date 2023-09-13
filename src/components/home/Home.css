@@ -26,6 +26,13 @@
     flex-direction: column;
 }
 
+.form-container label {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 16px;
+    font-stretch: expanded;
+}
+
 .form-container button{
     border-radius: 16px;
     margin-top: 20px;

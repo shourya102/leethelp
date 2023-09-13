@@ -1,7 +1,13 @@
 body {
-    background-image:  linear-gradient(30deg, #4d4d51 12%, transparent 12.5%, transparent 87%, #4d4d51 87.5%, #4d4d51), linear-gradient(150deg, #4d4d51 12%, transparent 12.5%, transparent 87%, #4d4d51 87.5%, #4d4d51), linear-gradient(30deg, #4d4d51 12%, transparent 12.5%, transparent 87%, #4d4d51 87.5%, #4d4d51), linear-gradient(150deg, #4d4d51 12%, transparent 12.5%, transparent 87%, #4d4d51 87.5%, #4d4d51), linear-gradient(60deg, #4d4d5177 25%, transparent 25.5%, transparent 75%, #4d4d5177 75%, #4d4d5177), linear-gradient(60deg, #4d4d5177 25%, transparent 25.5%, transparent 75%, #4d4d5177 75%, #4d4d5177);
-    background-size: 46px 81px;
-    background-position: 0 0, 0 0, 23px 40px, 23px 40px, 0 0, 23px 40px;
+    background:
+            radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#6f6f79 70%,#0000 72%) 30px 30px/calc(2*30px) calc(2*30px),
+            radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#6f6f79 70%,#0000 72%) 30px 30px/calc(2*30px) calc(2*30px),
+            radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#6f6f79 70%,#0000 72%) 0 0/calc(2*30px) calc(2*30px),
+            radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#6f6f79 70%,#0000 72%) 0 0/calc(2*30px) calc(2*30px),
+            repeating-conic-gradient(#acb7bb 0 25%,#0000 0 50%) 0 0/calc(2*30px) calc(2*30px),
+            radial-gradient(#0000 66%,#6f6f79 70%,#0000 72%) 0 calc(30px/2)/30px 30px
+            #acb7bb;
+
     margin: 0;
 }
 

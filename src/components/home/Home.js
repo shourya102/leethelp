@@ -8,7 +8,7 @@ export default function Home() {
               <label htmlFor="username">Username</label>
               <input type="text" id='username'/>
               <label htmlFor="password">Password</label>
-              <input type="text" id='password'/>
+              <input type="password" id='password'/>
               <button>Log In</button>
           </form>
       </div>
